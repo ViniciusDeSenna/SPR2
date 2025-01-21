@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"905c9934c66f2961","x":-20,"y":-580,"width":627,"height":300,"type":"group","label":"Auth User"},
+		{"id":"cc6af0ec003873ba","x":380,"y":-560,"width":207,"height":60,"color":"4","type":"text","text":"Faz login no sistema"},
+		{"id":"d0d5d626e5327860","type":"text","text":"Retorna Erro","x":380,"y":-360,"width":152,"height":60,"color":"1"},
+		{"id":"493e3973516afdcc","x":180,"y":-460,"width":200,"height":60,"type":"text","text":"Possui Cadastro?"},
+		{"id":"e6155cc5ecd5fe58","x":0,"y":-460,"width":104,"height":60,"type":"text","text":"Login"}
+	],
+	"edges":[
+		{"id":"65e2040fae7e583d","fromNode":"e6155cc5ecd5fe58","fromSide":"right","toNode":"493e3973516afdcc","toSide":"left"},
+		{"id":"3f8804edf3413dcb","fromNode":"493e3973516afdcc","fromSide":"top","toNode":"cc6af0ec003873ba","toSide":"left","color":"4","label":"Sim"},
+		{"id":"19de749c0deac4ec","fromNode":"493e3973516afdcc","fromSide":"bottom","toNode":"d0d5d626e5327860","toSide":"left","color":"1","label":"Não"}
+	]
+}
