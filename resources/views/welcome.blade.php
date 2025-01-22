@@ -14,8 +14,10 @@
 <body class="bg-light">
     <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
         <div class="text-center">
+            <a href="/">
+                <x-application-logo/>
+            </a>
             <div class="card shadow-lg border-0" style="max-width: 30rem;">
-                <img src="{{ asset('img/SPR2-removebg.png') }}" class="card-img-top rounded-top" alt="Bem-vindo">
                 <div class="card-body">
                     <h1 class="card-title display-5 fw-bold text-success">Bem-vindo!</h1>
                     <p class="card-text text-muted">Gerencie suas manutenções, maquinários e equipamentos com facilidade e segurança.</p>
@@ -25,7 +27,7 @@
         </div>
     </div>
 
-    <footer class="text-center py-3 bg-white border-top">
+    <footer class="fixed-bottom">
         <small class="text-muted">&copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. Todos os direitos reservados.</small>
     </footer>
 
