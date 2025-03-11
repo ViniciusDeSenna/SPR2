@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"145172ee498b4d4f","x":-240,"y":-160,"width":250,"height":60,"type":"text","text":"Faz Login"},
+		{"id":"78297b1732f81981","x":99,"y":-100,"width":250,"height":60,"type":"text","text":"Ler QR code"},
+		{"id":"b6cf7b9a9795b4dd","x":99,"y":-220,"width":250,"height":60,"type":"text","text":"Perfil"},
+		{"id":"1df6507240dc2af5","x":400,"y":-220,"width":250,"height":60,"type":"text","text":"Cadastrar Cartao"}
+	],
+	"edges":[
+		{"id":"d6b9a7561211074a","fromNode":"145172ee498b4d4f","fromSide":"right","toNode":"b6cf7b9a9795b4dd","toSide":"left"},
+		{"id":"562d6d6d0fbac95d","fromNode":"b6cf7b9a9795b4dd","fromSide":"right","toNode":"1df6507240dc2af5","toSide":"left"},
+		{"id":"c073cab7d3150ffd","fromNode":"145172ee498b4d4f","fromSide":"right","toNode":"78297b1732f81981","toSide":"left"}
+	]
+}
